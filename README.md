@@ -22,3 +22,5 @@ Our method builds upon and extends the [DTI-ALPS framework](https://www.jstage.j
 
 ## Software implementation
 The proposed method has been implemented using Matlab. The Python version of our method is under development.
+
+![The proposed framework](https://github.com/ChangleChen/EstPVeD/blob/main/fig1.jpg)
