@@ -6,7 +6,7 @@
 **Licenses**: 
 - Matlab code: MIT License
 
-**References**: Please cite our manuscript/repository if you are using this method or its extension or modify the method based on the code.
+**References**: If you use, extend, or modify this method or its code, please cite/acknowledge our work by citing the associated manuscript and repository.
 
 <div id='id-section1'/>
 
