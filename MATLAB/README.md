@@ -19,7 +19,7 @@ The original environment for our pipeline development was using
 
 <div id='id-section2'/>
 
-## Diffusion MRI Data preparation
+## Diffusion MRI Data Preparation
 To prepare the diffusion data for automatic PVeD calculation, please use the QSDR reconstruction with the DSI studio to reconstruct diffusion tensors. Regarding how to reconstruct the diffusion data you have with the QSDR, you can either use GUI (graphic user interface) or CLI (command line interface).  
 For GUI instructions, you can go to [DSI studio tutorial](https://dsi-studio.labsolver.org/doc/gui_t2.html). The parameters that you need to specify include (1) choose QSDR with 2 mm output resolution, (2) choose Preprocessing to run EDDY correction (you can also preprocess your diffusion data using other tools such as `qsiprep`), (3) choose Check b-table, (4) choose No high b for DTI, (5) choose ICBM152_adult template, and (6) Other output metrics: fa,ad,rd,md,iso,rdi,nrdi,tensor. You may need to click the Advanced Options button if you can't find these on the panel. Then click Run Reconstruction.  
 For CLI instructions, modify the following command line according to your filenames (--source) and paste it into your terminal:
