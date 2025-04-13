@@ -13,7 +13,7 @@
 ## About the method
 This repository contains code and resources for estimating Periventricular Diffusivity (PVeD) — a diffusion MRI-based marker designed to reflect interstitial fluid dynamics in the periventricular region of the human brain, which may be associated with glymphatic integrity. Developed in the context of Alzheimer’s disease research, the PVeD metric approximates fast transverse diffusion signals aligned with deep medullary veins, offering enhanced sensitivity to amyloid accumulation and cognitive impairment.
 
-Our method builds upon and extends the DTI-ALPS framework by:  
+Our method builds upon and extends the [DTI-ALPS framework](https://www.jstage.jst.go.jp/article/mrms/23/3/23_rev.2023-0175/_article/-char/ja/) by:  
 1. Automatically delineating periventricular regions adjacent to the lateral ventricles  
 
 2. Quantifying voxel-wise transverse diffusion via a custom Transverse Tensor Ratio (TTR)  
